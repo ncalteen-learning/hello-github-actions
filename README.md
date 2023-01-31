@@ -18,7 +18,7 @@ _Create a GitHub Action and use it in a workflow._
   Do not use quotes on the <details> tag attributes.
 -->
 
-<!--step0-->
+<!--step0
 
 Automation is key for streamlining your work processes, and [GitHub Actions](https://docs.github.com/actions) is the best way to supercharge your workflow.
 
@@ -38,7 +38,7 @@ Automation is key for streamlining your work processes, and [GitHub Actions](htt
    ![Create a new repository](https://user-images.githubusercontent.com/1221423/169618722-406dc508-add4-4074-83f0-c7a7ad87f6f3.png)
 3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
 
-<!--endstep0-->
+endstep0-->
 
 <!--
   <<< Author notes: Step 1 >>>
@@ -91,7 +91,7 @@ To get you started, we used actions to go ahead and made a branch and pull reque
   Historic note: The previous course had troubleshooting steps for people not using the GitHub UI.
 -->
 
-<details id=2>
+<details id=2 open>
 <summary><h2>Step 2: Add a job to your workflow file</h2></summary>
 
 _Nice work! :tada: You added a workflow file!_
