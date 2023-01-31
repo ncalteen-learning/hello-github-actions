@@ -48,7 +48,7 @@ endstep0-->
   Encourage users to open new tabs for steps!
 -->
 
-<details id=1>
+<details id=1 open>
 <summary><h2>Step 1: Create a workflow file</h2></summary>
 
 _Welcome to "Hello GitHub Actions"! :wave:_
