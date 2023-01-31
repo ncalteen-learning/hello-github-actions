@@ -36,7 +36,7 @@ jobs:
     steps:
       # We'll need to check out the repository so that we can edit the README
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0 # Let's get all the branches
 
@@ -58,7 +58,7 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git commit --allow-empty --message="Create an empty commit"
-          
+
           echo "Push"
           git push --set-upstream origin $BRANCH
 
