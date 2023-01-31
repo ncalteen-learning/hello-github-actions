@@ -2,6 +2,13 @@ name: Post Welcome Comment
 on:
   pull_request:
     types: [opened]
+# Reference https://docs.github.com/en/actions/security-guides/automatic-token-authentication
+permissions:
+  # Need `contents: read` to checkout the repository
+  # Need `contents: write` to update the step metadata
+  # Need `pull-requests: write` to create a pull request
+  contents: write
+  pull-requests: write
 jobs:
   build:
     name: Build Welcome Comment
